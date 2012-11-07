@@ -1,0 +1,71 @@
+Featured Content Slider
+
+// Add the JQuery plug in to the head section.
+
+//Add these scripts and CSS to the <head> section
+
+	<script type="text/javascript" src="js/featureList.js"></script>
+    <link rel="stylesheet" href="css/featured.css" />
+
+	<script language="javascript">
+		$(document).ready(function() {
+
+			$.featureList(
+				$("#tabs li a"),
+				$("#output li"), {
+					start_item	:	1
+				}
+			);
+		});
+	</script>
+
+// Sample Content Code
+
+	<div id="feature">
+		<h1>Featured Services</h1>
+
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+		<div id="feature_list">
+			<ul id="tabs">
+				<li>
+					<a href="javascript:;">
+						<img src="images/icon1.png" />
+						<h3>Living Rooms</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/icon2.png" />
+						<h3>Dining Rooms</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/icon3.png" />
+						<h3>Family Rooms</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+			</ul>
+			<ul id="output">
+				<li>
+					<img src="images/sample1.jpg" />
+					<a href="#">More Living Rooms</a>
+				</li>
+				<li>
+					<img src="images/sample2.jpg" />
+					<a href="#">More Dining Rooms</a>
+				</li>
+				<li>
+					<img src="images/sample3.jpg" />
+					<a href="#">More Family Rooms</a>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+

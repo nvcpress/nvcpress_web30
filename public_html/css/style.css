@@ -1,0 +1,563 @@
+/* CSS Document */
+
+	/* Global */
+	html	{	}
+	body	{ background-color:#F7F7F7; margin:0px	}
+	
+	h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: bold;
+	line-height: 100%;
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #055;
+	}
+	
+	a {
+		color:#900;	
+	}
+	
+	/* color scheme
+	hover - deep orage: #F90
+	top nav text - black
+	table text - light black (dark grey): #585858
+	
+	/* Headings */
+	
+	h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+	
+	h1 { font-size:20px; color:#BB5E00;
+			padding-bottom:15px; border-bottom:1px #ccc solid; margin-bottom:15px;  }
+	h2 { font-size:18px; }
+	h3 { font-size:16px; margin-bottom:5px; }
+	h4 { font-size:14px; }
+	h5 { font-size:13px; }
+	h6 { font-size:14px; }
+	
+	h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+	
+	/* Text Elements */
+
+	p           	{ color:#000; font-size:13px; line-height:150%;
+						margin:15px 0;  }
+	p .left			{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+	p .right 		{ margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+	
+	a           	{   }
+	a:link			{ color:#000;  }
+	a:visited		{ color: #0f0;  }
+	a:active		{ color: #000;  }
+	a:focus			{ color: #666;  }
+	a:hover     	{ color:#F90;  }
+	
+	blockquote  	{ color:#000; font-size:12px; }
+	
+	strong      	{ font-weight: bold; }
+	em		      	{ font-style: italic; }
+	
+	.checkbox, .radio {
+		  width: 19px;
+		  height: 25px;
+		  padding: 0 5px 0 0;
+		  background: url(checkbox.gif) no-repeat;
+		  display: block;
+		  clear: left;
+		  float: left;
+	}
+		
+	/* specific elements */
+	/* div#today p		{ border:thin grey solid; } */
+
+
+	div#navAndBanner	{ border-color:black; background-color:white; margin-right:20px; margin-left:20px; margin-top:0; height:100%}
+	div#content-fullwidth	{ width:960px; margin-left:20px; margin-right:20px; background-color:blue; overflow:auto }
+	div#content-fullwidth h1 { padding-left:20px; padding-right:20px  }
+	div#content-fullwidth p { padding-left:20px; padding-right:20px }
+	
+
+/* body */	
+#wrapper			{ width:1200px; margin:0 auto; background-color:white; height:100%; }
+	/* logo */
+	#logo	{padding-left:10px; padding-top: 3px; width:270px; height:70px} /* some reason, if I use this then the logged in message is not wrapped around the image */
+		
+	span.align_right {
+		position: absolute;
+		float:right;
+		right: 10;
+		color: red;
+		background-color: blue;
+	}
+	
+	#sign_up	{float:right; text-align:center; margin-top:50px; margin-right:30px;}
+		#sign_up a {color:#BB5E00;}
+	#sign_in	{float:right; text-align:certer; margin-top:50px; margin-right:20px;}
+		#sign_in a {color:#BB5E00;}
+	#sign_out	{float:right; text-align:certer; margin-top:50px; margin-right:20px;}
+		#sign_out a {color:#BB5E00;}
+	/* Navigation */
+	#topnav				{ clear:both; margin:0; margin-top:-10px; padding:0 20px 0 20px}
+	#topnav ul			{ border-top:solid 1px #000; border-bottom:solid 1px #000; padding:3px 5px;}
+	#topnav ul li		{ display:inline; margin:0 5px; font-size:12px; padding:0 10px}
+	#topnav a:link		{ color:#000; text-decoration:none;}
+	#topnav a:visited	{ color:#000; }
+	#topnav a:active	{ color:#000; }
+	#topnav a:focus		{ color:#666;}
+	#topnav a:hover		{ color:#F90;  }
+	
+	/* slider  defined in slider section */
+	/* content area */	
+	#content_area, #content_area1		{ width:1200px; height:500px; float:left; background-color:white; margin:0 } 
+	div#gallery_area	{ padding-left:30px; }
+	div#gallery_area iframe	{ width:1160px; height:700px; background-color:white; padding_left:40px }
+	#content_area p		{  }
+		#content_left		{ width:250px; height:475px; float:left; float:left; padding-left:10px; padding-right:5px; margin-top:10px; border:#CCC solid 1px; margin-left:20px; margin-bottom:10px }
+		#content_left ul li a { color:#517EEA }
+		#content_left ul li a:hover 	{ color:#F90 }
+			#pict_link_left	{	}
+			
+		#content_left_wide	{ width:955px; height:475px; float:left; float:left; padding-left:10px; 
+								margin-right:10px; padding-right:5px; margin-top:10px; border:#CCC solid 1px; margin-left:20px; margin-bottom:10px; overflow:auto }
+		#content_left_wide a p { font-size:15px }
+		#content_left_wide p	{ font-size:15px; color:#2D548E; }
+			#thankyou_text		{ padding:100px }
+			/* community box */
+			#community_box1	img	{ width:100px; height:100px; margin-left:20px; float:left }
+			#community_box2	img	{ width:100px; height:100px; margin-left:30px; float:left }
+			
+		#content_center		{ width:655px; float:left; padding-left:20px; padding-right:20px; border:#CCC solid 1px; margin:10px; height:475px; overflow:auto}
+		#content_center img	{ border:solid 1px #C5C5C5; padding:5px; margin-left:0; margin-right:10px; margin-top:5px; float:left }
+		
+		#content_center_wide { width:780px; float:left; border:#CCC solid 1px; height:475px; overflow:auto}
+		
+		#content_center_photo_club	{ width:840px; float:left; padding-left:20px; padding-right:20px; border:#CCC solid 1px; margin:10px; height:475px; overflow:scroll }
+		#content_center_photo_club a:hover { color:#F90 }
+			#photo_club_faq		{ border:solid thin color:#CCC; width="840" border="1" cellpadding="5" cellspacing="0" bordercolor="#AAAAAA" }
+			#photo_club_faq a:hover { color:#F90 }
+			div#photo_club_faq_button { margin-left:900px; background:red }
+		#content_right_with_left_menu	{ width:840px; float:left; padding-left:20px; padding-right:20px; border:#CCC solid 1px; margin:10px; height:475px; }
+		#content_right		{ width:155px; height:475px; float:left; padding-left:10px; padding-right:10px; border:#CCC solid 1px; margin-top:10px; padding-top:0px }
+		#content_right ul		{ margin:0; padding:0; padding-top:10px}
+		#content_right ul li { display:inline; margin:0; padding:0}
+			.detail_image		{ width:135px; height:70px; padding: 5px; border:#ccc solid thin; float:left; margin:5px }
+		#content_right_wide	{ background:red; width:840px; height:475px; float:left; padding-left:10px; padding-right:20px; border:#CCC solid 1px; margin-top:10px; padding-top:0px }
+			#content_right_wide p { color:red }
+		
+		#content_full_width		{ width:1160px; height:475px; margin-left:20px; }
+		#contact_form	{ width:500px; float:left; }
+		
+		#member_list	{ width:850px; height:500px margin:50px; }
+			#member_name { color:black; }
+			#member_email { color:black }
+			#phone_number { color:black }
+		#registration_submit { width:90px; background-color:#C5C5C5; margin-left:600px; }
+		#registration td { font-size:12px; float:left }
+		#registration td input { font-size:12px; width:250px; float:left }
+		#team_checkbox	{ border:thin #C5C5C5 solid; padding:10px }
+		#team_checkbox	input { width:115px }
+		#team_checkbox text { width:70px }
+
+	#footer			{ margin-top:0px; adding:0; width:1160px; float:left; background-color:white; 
+						padding-left:20px; padding-right:20px; margin-bottom:-10px }
+	#footer p		{ text-align:center; font-size:10px; border-top:solid thin #CCC; border-bottom:#F00; padding:5px ; margin:0 } 
+		
+		
+	div#detail			{ width:220; height:250px; }
+	div#detail h1		{ font-size:20px }
+	div#upcoming		{ width:550px; float:left; padding-left:20px; height:200px }
+	div#upcoming h1		{ font-size:20px }
+	div#upcomingDetail			{ width:400; height:200px }
+	div#upcomingDetail h1		{ font-size:20px }
+	/* Contact html page */
+	div#contact			{ height:400px; text-align:center; margin-top: 100px }
+	/* Help html page */
+	div#helpContent		{ height:400px; text-align:center; margin-top: 100px }
+	/* create html page */
+	div#createContent		{ height:400px; text-align:center; margin-top: 100px  }
+	/* history html page */
+	div#historyContent		{ height:400px; text-align:center; margin-top: 100px  }	
+	/* stats html page */
+	div#statsContent		{ height:400px; text-align:center; margin-top: 100px  }	
+	/* admin html page */
+	div#adminContent		{ height:400px; text-align:center; margin-top: 100px  }	
+	/* reference html page */
+	div#referenceContent		{ height:960px; text-align:center; margin-top: 100px; background-color:red }	
+	
+	/* box */
+	
+	#box1				{ width:208px; height:150px; float:left; margin:5px; border-top:#F93 15px solid; background-color:#E0E0E0; padding-bottom:15px }
+	#box1 h3			{ text-align:center }
+	#box1 img			{ width:198px; height:90px; padding:0 5px 0 5px }	
+	#box1 a	p			{ text-align:center; padding:0 0 15px 40px; font-size:15px; color:#7578EC; margin-top:7px }
+
+	
+	#box2				{ width:208px;; height:150px; float:left; margin:5px; border-top:#727238 15px solid; background-color:#E0E0E0; padding-bottom:15px }
+	#box2 h3			{ text-align:center }	
+	#box2 img			{ width:198px; height:90px; padding:0 5px 0 5px }	
+	#box2 a	p			{ text-align:center; padding:0 0 15px 40px; font-size:15px; color:#7578EC; margin-top:7px }
+	
+	#box3				{ width:208px;; height:150px; float:left; margin:5px; border-top:#006C00 15px solid; background-color:#E0E0E0; padding-bottom:15px }
+	#box3 h3			{text-align:center }
+	#box3 img			{ width:198px; height:90px; padding:0 5px 0 5px }	
+	#box3 a	p			{ text-align:center; padding:0 0 15px 40px; font-size:15px; color:#7578EC; margin-top:7px }
+	
+	#box4				{ width:208px; height:150px; float:left; margin:5px; border-top:#6767B4 15px solid; background-color:#E0E0E0; padding-bottom:15px }
+	#box4 h3			{ text-align:center }
+	#box4 img			{ width:198px; height:90px; padding:0 5px 0 5px }	
+	#box4 a	p			{ text-align:center; padding:0 0 15px 40px; font-size:15px; color:#7578EC; margin-top:7px }
+	
+	#box5				{ width:208px;; height:150px; float:left; margin:5px; border-top:#9F5000 15px solid; background-color:#E0E0E0; padding-bottom:15px }
+	#box5 h3			{ text-align:center }	
+	#box5 img			{ width:198px; height:90px; padding:0 5px 0 5px }	
+	#box5 a	p			{ text-align:center; padding:0 0 15px 40px; font-size:15px; color:#7578EC; margin-top:7px }
+	
+	#box6				{ width:208px;; height:150px; float:left; margin:5px; border-top:#AEAE00 15px solid; background-color:#E0E0E0; padding-bottom:15px }
+	#box6 h3			{text-align:center }
+	#box6 img			{ width:198px; height:90px; padding:0 5px 0 5px }	
+	#box6 a	p			{ text-align:center; padding:0 0 15px 40px; font-size:15px; color:#7578EC; margin-top:7px }
+	
+	
+	/* forms */
+form ol { list-style-type:none; }
+
+form 	{ text-align:left; margin:10px; margin-left:0	}
+
+form p { font-size:10px }
+
+label 	{ 
+		float: left; width: 140px; margin-top:5px;
+		text-align:right; display:block; background:none; font-weight:bold; font-size:12px
+		}
+	
+/* submit	{ background:none; 	} */
+
+input 	{ 
+		width: 280px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+		
+input:focus, textarea:focus	{ background-color:#E4E4E4; }
+
+textarea {
+		width: 400px; height: 150px; margin:-10px 10px 16px 150px;
+		border:1px #bbb solid; padding:0px; background:none; 
+		}
+
+select { margin-bottom:20px;	}
+	
+.month { margin-left:155px;	}
+
+.submit {
+		width:40px; height:25px;
+		margin-left:300px;
+		margin-bottom: 40px;
+		font-size:12px;
+		}
+
+br		{ clear: left; 	}
+
+.clear	{ clear:both; }	
+	
+/* slider */
+#slider {
+    width: 1200px; /* important to be same as image width, The original image needs to be 960 x 300 */
+    height: 300px; /* important to be same as image height */
+    position:relative; /* important */
+	overflow: hidden; /* important */
+	text-align:left;
+	margin-top:-10px;
+	padding-top:0;
+
+}
+
+#sliderContent {
+	width: 1160px; /* important to be same as image width or wider */
+	position: absolute;
+	top: -12px;
+	margin-left: 0;
+	padding:0;
+	height: 300px;
+	left: 1px;	
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.sliderImage {
+    float: left;
+    position: relative;
+	display: none;
+}
+
+.sliderImage span {
+    position:relative;  /* this needs to be ABSOLUTE in order to have text slide to show up.  'relative' won't display text slider */
+    padding: 10px;
+    width: 200px;  /* This is the width of the caption box  */
+	height:300px; /* This is the height of the caption box  */
+    background-color: #000;  /* This sets the background color of the semi transparent box */
+    /* If you do not want the transparent content field to appear, change all opacity values to 0 */
+	filter: alpha(opacity=70); -moz-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:150%;
+    color: #fff; /* This is the color of the text in the caption box */
+    display: none;
+}
+
+.sliderImage span strong { 
+	color:#FF9428;  /* This is the color of the title text in the caption box */
+	font-size: 20px; /* This is the font size of the title text in the caption box */
+	line-height:300%;
+	}
+
+.clear { clear: both; }
+
+
+.top { top: 0; left: 600px; }  /* This sets the upper left corner of the caption box */
+
+.bottom { bottom: 0; left: 0; } /* This sets the lower left corner of the caption box */
+
+#slider ul 		{ list-style-type: none;}
+#slider ul li 	{ margin-left:0px; }
+
+/* iframe */
+
+iframe	{ width:965px; height:475px; margin-left:-10px; margin-right:-10px; padding:0 }
+
+a	{color:black }
+a:focusd { color:white }
+a:hover { color:#F90 }
+a:href	{color:white}
+
+/****************************** menu_expand.css ****************************************************/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+#content_left		{ }
+#content_left_navigation li a:hover	{ color:#F90}
+ul.menu, ul.menu ul {
+  list-style-type:none;
+  margin: 0;
+  margin-top:7px;
+  padding: 0;
+  width: 15em;
+}
+
+ul.menu a {
+  display: block;
+  text-decoration: none;
+  font-size:14px;	
+}
+
+ul.menu li {
+  margin-top: 1px;
+}
+
+ul.menu li a {
+  background: #333;
+  color: #fff;	
+  padding: 0.5em;
+}
+
+ul.menu li a:hover {
+  background: #000;
+}
+
+ul.menu li ul li a {
+  background: #ccc;
+  padding-left: 5px;
+}
+
+ul.menu li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #000 solid;
+  padding-left: 15px;
+}
+
+.code { border: 1px solid #ccc; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
+.indent3 { padding-left: 3em; }
+.indent4 { padding-left: 4em; }
+.indent5 { padding-left: 5em; }
+
+/********************** featured.css ******************************************************************/
+#feature 	{
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	width: 1120px; /* This is the width  */
+	margin: 20px auto; /* margin top/bottom and centering  */
+	padding: 20px; /* Padding inside */
+	background: #FFF;	/* Background color  */
+	border: 1px solid #CCC; /* border around  */
+	}
+
+#feature h1 { margin: 0; }
+#feature h1 a { padding-left:700px; text-align:right; font-size:20px; position:relative; color:#E48B3A}
+
+#feature p 	{ margin: 0; padding: 7px 0; }
+
+.clear 		{ clear: both; line-height: 1px; font-size: 1px; }
+
+#feature a 	{ outline-color: #888;	}
+
+#feature h3 { margin: 0;	padding: 7px 0 0 0; font-size: 16px; text-transform: uppercase; color:#F90 }
+
+div#feature_list 	{
+	width: 1120px; height: 320px;
+	overflow: hidden; position: relative;
+	}
+		
+div#feature_list ul {
+	position: absolute;	top: 0;
+	list-style: none;	
+	padding: 0;	margin: 0;
+	}
+
+ul#tabs {
+	left: 0;
+	z-index: 2;
+	width: 320px;
+	}
+
+ul#tabs li { font-size: 12px; font-family: Arial; }
+
+ul#tabs li img {
+	padding: 5px; border: none; margin: 10px 10px 0 0;
+	float: left;
+	}
+
+ul#tabs li a 	{
+	color: #222;
+	text-decoration: none;	
+	display: block;
+	padding: 10px;
+	height: 60px;
+	outline: none;
+	}
+
+ul#tabs li a:hover { color:#F90; }
+
+ul#tabs li a.current {
+	background:url(../img/feature-tab-current.png);
+	color: #FFF;
+	}
+
+ul#tabs li a.current:hover {
+	text-decoration: none;
+	cursor: default;
+	}
+
+ul#output {
+	right: 0;
+	width: 760px; height: 340px;
+	position: relative;
+	}
+
+ul#output li {
+	position: absolute;
+	width: 700px; height: 320px;
+	}
+
+ul#output li a {
+	position: absolute;
+	bottom: 10px; right: 10px;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFF;
+	background: #000;
+	-moz-border-radius: 5px;
+	}
+
+ul#output li a:hover { background:#B33A00; }
+
+/********************************** popup.css ************************************************************************
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend 
+
+Dark Orange #B64A23 
+
+*/
+	#club_rule h1 { color:#A85400; font-size:14px; font-weight:bold }
+	#club_rule h2 { color:A85400; font-size:13px; font-weight:bold  }
+	#club_rule h3 { color:#002F2F; font-size:12px; font-weight:bold  }
+	#club_rule p { color:black; font-size:10px }
+	
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 50%;
+		margin-left: -300px;
+		width: 720px;
+		background: #eee url(../images/modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/
+
+/* end */

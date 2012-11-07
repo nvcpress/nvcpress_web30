@@ -1,0 +1,21 @@
+// Modal Popup Instructions
+
+// Step One: Copy the files to your site
+
+// Step Two: Add JQuery, the script and the stylesheet to the page
+	If JQuery library has already been added do not add again
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/popup.js"></script>
+
+	  	<link rel="stylesheet" href="css/popup.css">	
+
+// Step Three: Add the page code for the pop up
+
+		<a href="#" data-reveal-id="myModal">Text Link to the pop up</a>	
+
+		<div id="myModal" class="reveal-modal">
+			<h1>Enter Popup Heading Here</h1>
+			<p>This is the descriptive text in the popup</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>

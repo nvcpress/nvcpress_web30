@@ -1,0 +1,90 @@
+#feature 	{
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	width: 1120px; /* This is the width  */
+	margin: 20px auto; /* margin top/bottom and centering  */
+	padding: 20px; /* Padding inside */
+	background: #FFF;	/* Background color  */
+	border: 1px solid #CCC; /* border around  */
+	}
+
+#feature h1 { margin: 0; }
+#feature h1 a { padding-left:700px; text-align:right; font-size:20px; position:relative; color:#E48B3A}
+
+#feature p 	{ margin: 0; padding: 7px 0; }
+
+.clear 		{ clear: both; line-height: 1px; font-size: 1px; }
+
+#feature a 	{ outline-color: #888;	}
+
+#feature h3 { margin: 0;	padding: 7px 0 0 0; font-size: 16px; text-transform: uppercase; color:#F90 }
+
+div#feature_list 	{
+	width: 1120px; height: 320px;
+	overflow: hidden; position: relative;
+	}
+		
+div#feature_list ul {
+	position: absolute;	top: 0;
+	list-style: none;	
+	padding: 0;	margin: 0;
+	}
+
+ul#tabs {
+	left: 0;
+	z-index: 2;
+	width: 320px;
+	}
+
+ul#tabs li { font-size: 12px; font-family: Arial; }
+
+ul#tabs li img {
+	padding: 5px; border: none; margin: 10px 10px 0 0;
+	float: left;
+	}
+
+ul#tabs li a 	{
+	color: #222;
+	text-decoration: none;	
+	display: block;
+	padding: 10px;
+	height: 60px;
+	outline: none;
+	}
+
+ul#tabs li a:hover { color:#822B00; }
+
+ul#tabs li a.current {
+	background:url(../img/feature-tab-current.png);
+	color: #FFF;
+	}
+
+ul#tabs li a.current:hover {
+	text-decoration: none;
+	cursor: default;
+	}
+
+ul#output {
+	right: 0;
+	width: 760px; height: 340px;
+	position: relative;
+	}
+
+ul#output li {
+	position: absolute;
+	width: 700px; height: 320px;
+	}
+
+ul#output li a {
+	position: absolute;
+	bottom: 10px; right: 10px;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFF;
+	background: #000;
+	-moz-border-radius: 5px;
+	}
+
+ul#output li a:hover { background:#B33A00; }
