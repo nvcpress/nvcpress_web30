@@ -1,15 +1,15 @@
-[0.001][INFO]:      ChromeDriver 22.0.1203.0 C:\data\programming\selenium_chrome_driver\chromedriver.exe
-[1.059][FINE]:      Initializing session with capabilities {
+[0.005][INFO]:      ChromeDriver 22.0.1203.0 C:\data\programming\selenium_chrome_driver\chromedriver.exe
+[0.465][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "platform": "ANY",
    "version": ""
 }
 
-[1.060][INFO]:      Launching chrome: "C:\Users\Heedon\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
-[3.455][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.94
-[3.485][FINE]:      Command received (/session/6509b1921e9fb6519ed0ee198b7e01ae)
-[3.485][FINE]:      Command finished (/session/6509b1921e9fb6519ed0ee198b7e01ae) with response {
-   "sessionId": "6509b1921e9fb6519ed0ee198b7e01ae",
+[0.466][INFO]:      Launching chrome: "C:\Users\Heedon\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[0.953][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.94
+[0.960][FINE]:      Command received (/session/fa8a42937135308985da80e1165f6506)
+[0.960][FINE]:      Command finished (/session/fa8a42937135308985da80e1165f6506) with response {
+   "sessionId": "fa8a42937135308985da80e1165f6506",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -32,21 +32,21 @@
    }
 }
 
-[3.505][FINE]:      Command received (/session/6509b1921e9fb6519ed0ee198b7e01ae/url) with params {
+[0.963][FINE]:      Command received (/session/fa8a42937135308985da80e1165f6506/url) with params {
    "url": "http://newvisionpress.org/sandbox_test/public_html/public/home.php"
 }
 
-[3.505][FINER]:     Waiting for all views to stop loading...
-[3.505][FINER]:     Done waiting for all views to stop loading
-[9.674][FINER]:     Waiting for all views to stop loading...
-[14.013][FINER]:    Done waiting for all views to stop loading
-[14.013][FINE]:     Command finished (/session/6509b1921e9fb6519ed0ee198b7e01ae/url) with response {
-   "sessionId": "6509b1921e9fb6519ed0ee198b7e01ae",
+[0.963][FINER]:     Waiting for all views to stop loading...
+[0.963][FINER]:     Done waiting for all views to stop loading
+[3.692][FINER]:     Waiting for all views to stop loading...
+[3.743][FINER]:     Done waiting for all views to stop loading
+[3.743][FINE]:      Command finished (/session/fa8a42937135308985da80e1165f6506/url) with response {
+   "sessionId": "fa8a42937135308985da80e1165f6506",
    "status": 0,
    "value": {
 
    }
 }
 
-[14.020][FINE]:     Command received (/session/6509b1921e9fb6519ed0ee198b7e01ae)
-[14.356][INFO]:     Chrome shutdown
+[3.747][FINE]:      Command received (/session/fa8a42937135308985da80e1165f6506)
+[4.934][INFO]:      Chrome shutdown
