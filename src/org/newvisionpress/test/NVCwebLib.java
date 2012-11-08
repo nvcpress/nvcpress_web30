@@ -576,6 +576,7 @@ public class NVCwebLib {
 	}
 	
 	public void verifyURL(String url){
+		System.out.println("**** running NVCwebLib.verifyURL method");
 		Assert.assertEquals("**** URL does not match!", url, driver.getCurrentUrl());
 	}
 	//Common: --------------------------------------------------------------------------------
