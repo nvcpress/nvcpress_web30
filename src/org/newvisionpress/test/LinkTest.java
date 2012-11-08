@@ -9,8 +9,12 @@ import org.newvisionpress.test.NVCwebLib;
 public class LinkTest extends NVCwebLib {
 	
 	@Test
-	public void simeTest(){
+	public void testTest(){
 		System.out.println("******************* hello there!***************");
+	}
+	@Test
+	public void verifyURLTest(){
+		verifyURL("http://www.newvisionpress.org");
 	}
 	
 

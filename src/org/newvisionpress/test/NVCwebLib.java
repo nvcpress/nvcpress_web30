@@ -574,6 +574,10 @@ public class NVCwebLib {
 			Assert.fail("Message-sent message should be displayed. Check contact form");
 		}
 	}
+	
+	public void verifyURL(String url){
+		Assert.assertEquals("**** URL does not match!", url, driver.getClass());
+	}
 	//Common: --------------------------------------------------------------------------------
 	public void waitForElement(int duration, int poll, String locator, String locatorType){
 		WebDriverWait wait = new WebDriverWait(driver, duration, poll);
