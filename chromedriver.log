@@ -1,0 +1,52 @@
+[0.001][INFO]:      ChromeDriver 22.0.1203.0 C:\data\programming\selenium_chrome_driver\chromedriver.exe
+[1.059][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.060][INFO]:      Launching chrome: "C:\Users\Heedon\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --ignore-certificate-errors --disable-popup-blocking --homepage=about:blank
+[3.455][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.94
+[3.485][FINE]:      Command received (/session/6509b1921e9fb6519ed0ee198b7e01ae)
+[3.485][FINE]:      Command finished (/session/6509b1921e9fb6519ed0ee198b7e01ae) with response {
+   "sessionId": "6509b1921e9fb6519ed0ee198b7e01ae",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "22.0.1203.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "22.0.1229.94",
+      "webStorageEnabled": true
+   }
+}
+
+[3.505][FINE]:      Command received (/session/6509b1921e9fb6519ed0ee198b7e01ae/url) with params {
+   "url": "http://newvisionpress.org/sandbox_test/public_html/public/home.php"
+}
+
+[3.505][FINER]:     Waiting for all views to stop loading...
+[3.505][FINER]:     Done waiting for all views to stop loading
+[9.674][FINER]:     Waiting for all views to stop loading...
+[14.013][FINER]:    Done waiting for all views to stop loading
+[14.013][FINE]:     Command finished (/session/6509b1921e9fb6519ed0ee198b7e01ae/url) with response {
+   "sessionId": "6509b1921e9fb6519ed0ee198b7e01ae",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.020][FINE]:     Command received (/session/6509b1921e9fb6519ed0ee198b7e01ae)
+[14.356][INFO]:     Chrome shutdown
