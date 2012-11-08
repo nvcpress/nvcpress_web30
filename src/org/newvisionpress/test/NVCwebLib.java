@@ -106,6 +106,7 @@ public class NVCwebLib {
 			driver = new ChromeDriver();
 			driver.get(url);
 			//*** find a way to maximize browser window
+			System.out.println("Chrome driver started");
 		} catch (Exception e) {
 			Assert.fail("*** Error setting up Chrome driver: " + e.getMessage());
 		}
@@ -149,6 +150,7 @@ public class NVCwebLib {
 	} 
 	public void tearDown(){
 		driver.quit();
+		System.out.println("Chrome driver stopped");
 		//driver.close();  --> only closed the window, the driver instance still in the memory space
 	}
 	
