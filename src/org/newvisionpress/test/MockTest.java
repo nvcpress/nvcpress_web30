@@ -45,6 +45,7 @@ public class MockTest {
 	@Test
 	public void staticImportTest(){
 		UserManager um = mock(UserManager.class);
+		
 	}
 
 }
