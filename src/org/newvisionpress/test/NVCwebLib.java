@@ -576,7 +576,7 @@ public class NVCwebLib {
 	}
 	
 	public void verifyURL(String url){
-		Assert.assertEquals("**** URL does not match!", url, driver.getClass());
+		Assert.assertEquals("**** URL does not match!", url, driver.getCurrentUrl());
 	}
 	//Common: --------------------------------------------------------------------------------
 	public void waitForElement(int duration, int poll, String locator, String locatorType){
